@@ -4,7 +4,7 @@ import {
   CHANGE_TYPE,
   CHANGE_AMOUNT,
   CHANGE_SCORE
-} from '/actionTypes'
+} from './actionTypes';
 
 // membuat fungsi yang akan dijalankan didalam settings untuk memperbarui reducer
 export const handleChangeCategory = (payload) => {

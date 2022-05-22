@@ -1,3 +1,11 @@
+import {
+  CHANGE_CATEGORY, 
+  CHANGE_DIFFICULTY, 
+  CHANGE_TYPE, 
+  CHANGE_AMOUNT, 
+  CHANGE_SCORE 
+} from "./actionTypes"
+
 const initialState = {
   questions_category: "",
   questions_difficulty: "",
