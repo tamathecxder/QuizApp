@@ -9,7 +9,7 @@ const NumberField = () => {
 
   return (
     <Box mt={3} width="100%">
-      <FormControl>
+      <FormControl fullWidth size="small">
         <TextField 
           onChange={handleChange}
           variant="outlined"
