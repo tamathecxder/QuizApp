@@ -35,7 +35,7 @@ export const handleChangeAmount = (payload) => {
   }
 }
  
-export const handleChangScore = (payload) => {
+export const handleChangeScore = (payload) => {
   return {
     type: CHANGE_SCORE,
     payload
