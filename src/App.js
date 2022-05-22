@@ -13,7 +13,7 @@ function App() {
         <Route path="/questions">
           <Questions />
         </Route>
-        <Route path="/final">
+        <Route path="/score">
           <FinalScreen />
         </Route>
       </Routes>
