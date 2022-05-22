@@ -7,15 +7,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/">
-          <Settings />
-        </Route>
-        <Route path="/questions">
-          <Questions />
-        </Route>
-        <Route path="/score">
-          <FinalScreen />
-        </Route>
+        <Route path="/" element={<Settings />} />
+        <Route path="/questions" element={<Questions />} />
+        <Route path="/score" element={<FinalScreen />} />
       </Routes>
     </Router>
   );
