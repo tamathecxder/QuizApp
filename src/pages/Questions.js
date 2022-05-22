@@ -1,7 +1,17 @@
 import { Box, Button, Typography } from "@mui/material"
+import { useSelector } from "react-redux";
 import useAxios from '../hooks/useAxios'
 
 const Questions = () => {
+  const {
+    questions_category,
+    questions_difficulty,
+    questions_type,
+    amount_of_question
+  } = useSelector(state => state);
+
+  console.log(amount_of_question);
+
   let apiUrl = `/api.php?amount=10`;
   const { response, error, loading } = useAxios({ url: apiUrl });
   console.log(response);
