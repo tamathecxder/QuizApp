@@ -10,7 +10,7 @@ const initialState = {
   questions_category: "",
   questions_difficulty: "",
   questions_type: "",
-  amount_of_question: 50,
+  amount_of_question: 100,
   score: 0,
 }
 
