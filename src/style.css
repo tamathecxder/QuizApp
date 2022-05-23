@@ -1,0 +1,24 @@
+.row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.column {
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column {
+        width: auto;
+    }
+
+    .mobile-mt {
+        margin-top: 14px;
+    }
+}
